@@ -8,6 +8,12 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Minor: incremental features and improvements
 - Major: significant functionality or breaking changes
 
+## Roles in Release (new)
+- Release Manager: coordinates planning, verification, rollout, and communications for releases.
+- QA Lead: owns verification strategy and pre-release checks.
+- Developers / On-call: support rollbacks, hotfixes, and post-release triage.
+- Project Manager / Product Manager: confirm release timing and stakeholder communications.
+
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
